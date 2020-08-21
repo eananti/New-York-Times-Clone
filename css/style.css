@@ -76,3 +76,26 @@ table {
   width: 945px;
   height: auto;
 }
+
+.aside-img {
+  width: 75px;
+  height: 75px;
+}
+
+.main-div-one {
+  display: flex;
+  align-items: center;
+}
+
+.aside-div {
+  display: flex;
+  margin: 20px 0;
+}
+
+.social-div {
+  display: flex;
+} 
+
+.social-div p {
+  flex: 1;
+}
