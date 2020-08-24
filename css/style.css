@@ -152,62 +152,15 @@ table {
 }
 
 /* layout */
+header {
+  border-bottom: 1px solid #e2e2e2;
+}
 
 .grid-header {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 4px 15px 2px;
-  border-bottom: 1px solid #e2e2e2;
-  height: 36px;
-  margin: auto 0;
-}
-
-.grid-header img {
-  width: 195px;
-  height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1342px;
+  height: 42px;
   margin: 0 auto;
-}
-
-.grid-header-sub button {
-  float: right;
-}
-
-.grid-header-sub {
-  margin: auto 0;
-}
-
-.body-header {
-  margin: 25px 202px 43px;
-}
-
-.body-header h1 {
-  text-align: center;
-  margin-bottom: 16px;
-  margin-top: 40px;
-}
-
-.main-div-one {
-  display: grid;
-  grid-template-columns: 1.7fr 1fr;
-  margin-left: 300px;
-}
-
-aside {
-  margin-left: 75px;
-}
-
-/* template */
-
-.fa {
-  font-size: 1.16rem;
-}
-
-.banner-image {
-  width: 935px;
-  height: auto;
-}
-
-.aside-img {
-  width: 75px;
-  height: 75px;
 }
