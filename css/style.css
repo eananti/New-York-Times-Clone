@@ -156,6 +156,24 @@ table {
 .grid-header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding: 4px 15px 2px;
+  border-bottom: 1px solid #e2e2e2;
+  height: 36px;
+  margin: auto 0;
+}
+
+.grid-header img {
+  width: 195px;
+  height: 26px;
+  margin: 0 auto;
+}
+
+.grid-header-sub button {
+  float: right;
+}
+
+.grid-header-sub {
+  margin: auto 0;
 }
 
 /* template */
