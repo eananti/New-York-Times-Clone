@@ -164,3 +164,48 @@ header {
   height: 42px;
   margin: 0 auto;
 }
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.banner-image {
+  max-width: 945px;
+  margin: 0 auto;
+}
+
+.banner-image img {
+  width: 100%;
+}
+
+.banner-image p {
+  max-width: 720px;
+  height: 58px;
+}
+
+.main-content-info {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.main-content-span {
+  text-align: center;
+}
+
+.date-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  float: right;
+  /* position: relative;
+  top: 100px; */
+}
+
+.aside-info img {
+  width: 75px;
+  height: 75px;
+}
