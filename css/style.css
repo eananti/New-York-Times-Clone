@@ -171,16 +171,16 @@ h1 {
   margin-bottom: 16px;
 }
 
-.banner-image {
+.contain-image {
   max-width: 945px;
   margin: 0 auto;
 }
 
-.banner-image img {
+.contain-image img {
   width: 100%;
 }
 
-.banner-image p {
+.contain-image p {
   max-width: 720px;
   height: 58px;
 }
@@ -200,12 +200,33 @@ h1 {
 }
 
 aside {
-  float: right;
-  /* position: relative;
-  top: 100px; */
+  position: absolute;
+  top: 1200px;
+  right: 180px;
+  width: 210px;
+  height: 328px;
+}
+
+.aside-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+aside h3 {
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(226, 226, 226);;
 }
 
 .aside-info img {
   width: 75px;
   height: 75px;
+  margin-right: 10px;
+}
+
+/* template */
+
+.aside-info a {
+  text-decoration: none;
 }
