@@ -176,6 +176,26 @@ table {
   margin: auto 0;
 }
 
+.body-header {
+  margin: 25px 202px 43px;
+}
+
+.body-header h1 {
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 40px;
+}
+
+.main-div-one {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  margin-left: 300px;
+}
+
+aside {
+  margin-left: 75px;
+}
+
 /* template */
 
 .fa {
@@ -183,29 +203,11 @@ table {
 }
 
 .banner-image {
-  width: 945px;
+  width: 935px;
   height: auto;
 }
 
 .aside-img {
   width: 75px;
   height: 75px;
-}
-
-.main-div-one {
-  display: flex;
-  align-items: center;
-}
-
-.aside-div {
-  display: flex;
-  margin: 20px 0;
-}
-
-.social-div {
-  display: flex;
-}
-
-.social-div p {
-  flex: 1;
 }
