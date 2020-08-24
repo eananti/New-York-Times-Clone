@@ -225,6 +225,42 @@ aside h3 {
   margin-right: 10px;
 }
 
+.inflation-section {
+  position: relative;
+}
+
+.inflation-section-div {
+  position: absolute;
+  top: 150px;
+}
+
+.inflation-section-div-two {
+  position: absolute;
+  top: 430px;
+}
+
+.inflation-section-div p,
+.inflation-section-div-two p {
+  width: 228px;
+  height: 120px;
+  float: left;
+}
+
+.inflation-section-div p:first-child,
+.inflation-section-div-two p:first-child {
+  margin-right: 10px;
+}
+
+.inflation-section-div p:nth-child(2),
+.inflation-section-div-two p:nth-child(2) {
+  margin-right: 15px;
+}
+
+.inflation-section-div p:nth-child(3),
+.inflation-section-div-two p:nth-child(3) {
+  margin-right: 8px;
+}
+
 /* template */
 
 .aside-info a {
