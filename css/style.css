@@ -199,7 +199,7 @@ header {
   justify-content: space-between;
 }
 
-aside {
+.main-content-aside {
   max-width: 210px;
   position: absolute;
   right: 0;
@@ -212,7 +212,7 @@ aside {
   margin-bottom: 15px;
 }
 
-aside h3 {
+.main-content-aside h3 {
   padding-bottom: 12px;
   margin-bottom: 15px;
   border-bottom: 1px solid rgb(226, 226, 226);
@@ -280,6 +280,36 @@ iframe {
   width: 100%;
   height: 400px;
 }
+
+.footer-article-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.article-container {
+  max-width: 852px;
+  float: left;
+}
+
+.footer-aside-container {
+  max-width: 315px;
+  float: right;
+}
+
+.article-content {
+  display: flex;
+}
+
+.article-content-main {
+  width: 272px;
+  margin-right: 15px;
+}
+
+.article-content-main img {
+  width: 100%;
+  height: auto;
+}
+
 
 /* template */
 
