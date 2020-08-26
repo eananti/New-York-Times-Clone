@@ -345,6 +345,11 @@ iframe {
   display: grid;
 }
 
+.logo-footer-section {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
 .footer-links {
   grid-template-columns: repeat(6, 1fr);
 }
@@ -617,6 +622,20 @@ button {
   font-size: 15px;
   font-weight: 400;
   line-height: 17px;
+}
+
+section.footer-container::before {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: '';
+  display: block;
+  height: 1px;
+  margin-top: 0;
+}
+
+.bottom-fixed-div {
+  border-top: 1px solid #000;
 }
 
 /* state */
