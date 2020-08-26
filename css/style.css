@@ -125,7 +125,7 @@ header {
 .main-content-aside h3 {
   padding-bottom: 12px;
   margin-bottom: 15px;
-  border-bottom: 1px solid rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226,226,226);
 }
 
 .aside-info img {
@@ -261,11 +261,11 @@ iframe {
 .grid-header button {
   font-size: 11px;
   padding: 11px 12px 8px;
-  background-color: rgb(86, 123, 149);
+  background-color: rgb(86,123,149);
   font-weight: 700;
   color: #fff;
   border-radius: 3px;
-  border: 1px solid rgb(50, 104, 145);
+  border: 1px solid rgb(50,104,145);
   transition: all 0.6s ease 0s;
   vertical-align: middle;
   cursor: pointer;
