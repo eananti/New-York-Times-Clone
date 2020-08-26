@@ -6,6 +6,8 @@
 
 /* template */
 
+/* state */
+
 /*
 * reset
 *
@@ -57,6 +59,11 @@ table {
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /* layout */
@@ -268,7 +275,6 @@ iframe {
   border: 1px solid rgb(50,104,145);
   transition: all 0.6s ease 0s;
   vertical-align: middle;
-  cursor: pointer;
 }
 
 .main-content-info-inner h1 {
@@ -281,5 +287,35 @@ iframe {
 }
 
 .aside-info a {
+  text-decoration: none;
+}
+
+.banner-image figcaption {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #666;
+}
+
+.banner-image span {
+  color: #888;
+  font-size: 0.8125rem;
+}
+
+.shade-blue {
+  color: #326891;
+}
+
+.underline-link {
+  text-decoration: underline;
+}
+
+/* state */
+
+.underlink-link-hover:hover {
+  text-decoration: underline;
+}
+
+.un-underlink-link-hover:hover {
   text-decoration: none;
 }
