@@ -167,8 +167,13 @@ header {
   border-bottom: 1px solid #e2e2e2;
 }
 
-.grid-header {
+.grid-header,
+.aside-info,
+.logo-footerpage-section {
   align-items: center;
+}
+
+.grid-header {
   max-width: 1349px;
   height: 42px;
   margin: 0 auto;
@@ -227,7 +232,6 @@ header {
 }
 
 .aside-info {
-  align-items: center;
   margin-bottom: 15px;
   font-weight: 500;
   line-height: 17px;
@@ -337,10 +341,6 @@ iframe {
   clear: both;
 }
 
-.logo-homepage-link {
-  align-items: center;
-}
-
 .display-grid {
   display: grid;
 }
@@ -381,7 +381,8 @@ button {
   line-height: 19px;
 }
 
-.grid-header img {
+.grid-header img,
+.logo-footer-section img {
   width: 195px;
   height: auto;
 }
@@ -446,7 +447,9 @@ button {
   line-height: 19px;
 }
 
-.color-black {
+.color-black,
+.footer-links p,
+.fixed-footer {
   color: #000;
 }
 
@@ -493,7 +496,8 @@ button {
 }
 
 .article-featured,
-.article-featured a {
+.article-featured a,
+.footer-horizontal-links {
   color: rgb(102, 102, 102);
 }
 
@@ -540,7 +544,8 @@ button {
 }
 
 .editor-pick,
-.most-popular {
+.most-popular,
+.footer-links h4 {
   color: rgb(51, 51, 51);
 }
 
@@ -554,6 +559,64 @@ button {
   font-size: 19px;
   font-weight: 500;
   line-height: 23px;
+}
+
+.logo-footer-section .go-to-home {
+  color: rgb(86, 123, 149);
+}
+
+.logo-footer-section .go-to-home,
+.footer-horizontal-links {
+  font-weight: 400;
+  line-height: 11px;
+}
+
+.footer-links h4,
+.footer-subscribe {
+  font-weight: 700;
+}
+
+.footer-links h4,
+.footer-subscribe {
+  height: 15px;
+}
+
+.footer-links h4 {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.footer-links p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.footer-links p,
+.footer-subscribe-inner {
+  height: 23px;
+}
+
+.footer-subscribe {
+  font-size: 16px;
+  height: 25px;
+}
+
+.footer-subscribe-inner {
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.logo-footer-section .go-to-home,
+.footer-subscribe-inner,
+.footer-horizontal-links {
+  font-size: 11px;
+}
+
+.fixed-footer {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
 /* state */
