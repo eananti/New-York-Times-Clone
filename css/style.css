@@ -163,8 +163,21 @@ a {
 
 /* layout */
 
+body {
+  padding-bottom: 45px;
+}
+
 header {
+  position: fixed;
   border-bottom: 1px solid #e2e2e2;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
+}
+
+main {
+  padding-top: 42px;
 }
 
 .grid-header,
@@ -618,6 +631,10 @@ button {
   font-size: 11px;
 }
 
+.footer-horizontal-links {
+  height: 55px;
+}
+
 .fixed-footer {
   font-size: 15px;
   font-weight: 400;
@@ -635,7 +652,14 @@ section.footer-container::before {
 }
 
 .bottom-fixed-div {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   border-top: 1px solid #000;
+  z-index: 2;
+  background-color: #fff;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* state */
