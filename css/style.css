@@ -32,7 +32,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
-  color: #333;
   background-color: #fff;
   font-family: georgia, 'times new roman', times, serif;
 }
@@ -78,7 +77,6 @@ header {
   height: 42px;
   margin: 0 auto;
   padding: 4px 15px 2px;
-  font-family: helvetica, arial, sans-serif;
 }
 
 .flex {
@@ -118,21 +116,26 @@ header {
 }
 
 .main-content-aside {
-  max-width: 210px;
   position: absolute;
   right: 0;
   top: 250px;
+  max-width: 210px;
+  font-size: 14px;
 }
 
 .aside-info {
   align-items: center;
   margin-bottom: 15px;
+  font-weight: 500;
+  line-height: 17px;
 }
 
 .main-content-aside h3 {
   padding-bottom: 12px;
   margin-bottom: 15px;
   border-bottom: 1px solid rgb(226,226,226);
+  font-weight: 700;
+  line-height: 14px;
 }
 
 .aside-info img {
@@ -150,8 +153,12 @@ header {
 }
 
 .inflation-image-text p {
-  width: 228px;
   float: left;
+  width: 228px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 300;
 }
 
 .inflation-image .p-one {
@@ -257,7 +264,6 @@ iframe {
   font-weight: 700;
   font-size: 14.25px;
   line-height: 19px;
-  color: #000
 }
 
 .grid-header img {
@@ -287,7 +293,7 @@ iframe {
 }
 
 .aside-info a {
-  text-decoration: none;
+  color: rgb(51,51,51);
 }
 
 .banner-image figcaption {
@@ -297,7 +303,7 @@ iframe {
   color: #666;
 }
 
-.banner-image span {
+.banner-image figcaption span {
   color: #888;
   font-size: 0.8125rem;
 }
@@ -308,6 +314,66 @@ iframe {
 
 .underline-link {
   text-decoration: underline;
+}
+
+.main-color {
+  color: #333;
+}
+
+.helvetica {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.main-content-author {
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.publish-date {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.main-content-info-inner {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 400;
+  font-stretch: 100%;
+}
+
+.times-subscription {
+  font-weight: 700;
+  font-size: 15px;
+  text-size-adjust: 100%;
+  line-height: 19px;
+}
+
+.color-black {
+  color: #000;
+}
+
+.bold-paragraph {
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.astronomers-discovery {
+  color: #666;
+  font-size: .875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-family: georgia, "times new roman", times, serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.inflation-footer {
+  font-size: 14px;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 18px;
 }
 
 /* state */
