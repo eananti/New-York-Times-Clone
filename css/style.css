@@ -16,7 +16,87 @@
 * License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -26,7 +106,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -36,15 +126,20 @@ body {
   font-family: georgia, 'times new roman', times, serif;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote::before, blockquote::after, q::before, q::after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: '';
   content: none;
 }
@@ -94,6 +189,10 @@ header {
 
 .banner-image figcaption {
   max-width: 720px;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #666;
 }
 
 .main-content-info {
@@ -105,6 +204,10 @@ header {
 .main-content-info-inner {
   max-width: 600px;
   margin: 0 auto;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 400;
+  font-stretch: 100%;
 }
 
 .center-text {
@@ -133,7 +236,7 @@ header {
 .main-content-aside h3 {
   padding-bottom: 12px;
   margin-bottom: 15px;
-  border-bottom: 1px solid rgb(226,226,226);
+  border-bottom: 1px solid rgb(226, 226, 226);
   font-weight: 700;
   line-height: 14px;
 }
@@ -169,15 +272,18 @@ header {
   padding-top: 280px;
 }
 
-.inflation-image-text p:first-child, .inflation-section-div-two p:first-child {
+.inflation-image-text p:first-child,
+.inflation-section-div-two p:first-child {
   margin-right: 10px;
 }
 
-.inflation-image-text p:nth-child(2), .inflation-section-div-two p:nth-child(2) {
+.inflation-image-text p:nth-child(2),
+.inflation-section-div-two p:nth-child(2) {
   margin-right: 15px;
 }
 
-.inflation-image-text p:nth-child(3), .inflation-section-div-two p:nth-child(3) {
+.inflation-image-text p:nth-child(3),
+.inflation-section-div-two p:nth-child(3) {
   margin-right: 8px;
 }
 
@@ -274,11 +380,11 @@ iframe {
 .grid-header button {
   font-size: 11px;
   padding: 11px 12px 8px;
-  background-color: rgb(86,123,149);
+  background-color: rgb(86, 123, 149);
   font-weight: 700;
   color: #fff;
   border-radius: 3px;
-  border: 1px solid rgb(50,104,145);
+  border: 1px solid rgb(50, 104, 145);
   transition: all 0.6s ease 0s;
   vertical-align: middle;
 }
@@ -293,14 +399,7 @@ iframe {
 }
 
 .aside-info a {
-  color: rgb(51,51,51);
-}
-
-.banner-image figcaption {
-  font-size: 0.9375rem;
-  font-weight: 400;
-  line-height: 1.25rem;
-  color: #666;
+  color: rgb(51, 51, 51);
 }
 
 .banner-image figcaption span {
@@ -334,13 +433,6 @@ iframe {
   font-size: 13px;
 }
 
-.main-content-info-inner {
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  font-weight: 400;
-  font-stretch: 100%;
-}
-
 .times-subscription {
   font-weight: 700;
   font-size: 15px;
@@ -359,7 +451,7 @@ iframe {
 
 .astronomers-discovery {
   color: #666;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.125rem;
   font-weight: 400;
   font-family: georgia, "times new roman", times, serif;
