@@ -187,7 +187,7 @@ main {
   max-width: 1349px;
   height: 42px;
   margin: 0 auto;
-  padding: 4px 15px 2px;
+  padding: 4px 15px;
 }
 
 .flex {
@@ -695,7 +695,7 @@ footer {
 }
 
 .footer-subscribe {
-  font-size: 16px;
+  font-size: 15px;
   height: 25px;
 }
 
@@ -756,6 +756,12 @@ section.footer-container::before {
 .expand-arrow p:last-child {
   margin-left: 45px;
   vertical-align: text-top;
+}
+
+.css-r5ic95 {
+  vertical-align: text-top;
+  width: 16px;
+  height: 16px;
 }
 
 /* state */
