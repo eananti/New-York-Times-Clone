@@ -291,21 +291,6 @@ main {
   padding-top: 280px;
 }
 
-.inflation-image-text p:first-child,
-.inflation-section-div-two p:first-child {
-  margin-right: 10px;
-}
-
-.inflation-image-text p:nth-child(2),
-.inflation-section-div-two p:nth-child(2) {
-  margin-right: 15px;
-}
-
-.inflation-image-text p:nth-child(3),
-.inflation-section-div-two p:nth-child(3) {
-  margin-right: 8px;
-}
-
 .inflation-footer::before {
   width: 60px;
   background-color: #000;
@@ -432,6 +417,12 @@ footer {
   margin-top: 45px;
 }
 
+.footer-links p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
 .nav-icons {
   width: 16px;
   height: 16px;
@@ -482,6 +473,10 @@ footer {
   color: #888;
 }
 
+.video-image-caption-size span {
+  font-size: 13px;
+}
+
 .banner-image figcaption span {
   font-size: 0.8125rem;
 }
@@ -522,7 +517,7 @@ footer {
 
 .times-subscription::before {
   width: 72px;
-  background-color: rgb(204, 204, 204);;
+  background-color: rgb(204, 204, 204);
   display: block;
   height: 1px;
   content: "";
@@ -531,7 +526,7 @@ footer {
 
 .times-subscription::after {
   width: 72px;
-  background-color: rgb(204, 204, 204);;
+  background-color: rgb(204, 204, 204);
   display: block;
   height: 1px;
   content: "";
@@ -551,6 +546,38 @@ footer {
 
 .six-six-six {
   color: #666;
+}
+
+.footer-links h4,
+.footer-subscribe {
+  font-weight: 700;
+  height: 15px;
+}
+
+.footer-links h4 {
+  font-size: 13px;
+  line-height: 15px;
+  height: 25px;
+}
+
+.footer-links p,
+.footer-subscribe-inner {
+  height: 23px;
+}
+
+.inflation-image-text p:first-child,
+.inflation-section-div-two p:first-child {
+  margin-right: 10px;
+}
+
+.inflation-image-text p:nth-child(2),
+.inflation-section-div-two p:nth-child(2) {
+  margin-right: 15px;
+}
+
+.inflation-image-text p:nth-child(3),
+.inflation-section-div-two p:nth-child(3) {
+  margin-right: 8px;
 }
 
 .astronomers-discovery {
@@ -576,10 +603,6 @@ footer {
 .video-image-caption-size {
   font-size: 16px;
   line-height: 20px;
-}
-
-.video-image-caption-size span {
-  font-size: 13px;
 }
 
 .article-featured {
@@ -669,29 +692,6 @@ footer {
 .footer-horizontal-links {
   font-weight: 400;
   line-height: 11px;
-}
-
-.footer-links h4,
-.footer-subscribe {
-  font-weight: 700;
-  height: 15px;
-}
-
-.footer-links h4 {
-  font-size: 13px;
-  line-height: 15px;
-  height: 25px;
-}
-
-.footer-links p {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
-}
-
-.footer-links p,
-.footer-subscribe-inner {
-  height: 23px;
 }
 
 .footer-subscribe {
