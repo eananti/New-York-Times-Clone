@@ -404,7 +404,8 @@ iframe {
 
 /* template */
 
-button {
+button,
+.right-header-links a {
   background-color: rgb(86, 123, 149);
   color: #fff;
   border: 1px solid rgb(50, 104, 145);
@@ -450,8 +451,8 @@ footer {
   border: 1px solid #eee;
 }
 
-.grid-header button {
-  padding: 11px 12px 8px;
+.right-header-links a {
+  padding: 11px 12px;
   font-size: 11px;
   font-weight: 700;
 }
