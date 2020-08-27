@@ -712,6 +712,14 @@ footer {
 
 .footer-horizontal-links {
   height: 55px;
+  border-top: 1px solid rgb(226, 226, 226);
+  padding-top: 10px;
+  margin-top: 9px;
+}
+
+.footer-horizontal-links a {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 section.footer-container::before {
@@ -722,6 +730,16 @@ section.footer-container::before {
   display: block;
   height: 1px;
   margin-top: 0;
+}
+
+.footer-subscribe-container {
+  padding-left: 15px;
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+.footer-subscribe-inner-container {
+  margin: 13px 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .bottom-fixed-div {
