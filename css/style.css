@@ -1,0 +1,782 @@
+/* reset  */
+
+/* base */
+
+/* layout */
+
+/* template */
+
+/* state */
+
+/*
+* reset
+*
+* http://meyerweb.com/eric/tools/css/reset/
+* v2.0 | 20110126
+* License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: #fff;
+  font-family: georgia, 'times new roman', times, serif;
+  padding-bottom: 45px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* base */
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* layout */
+
+header {
+  position: fixed;
+  border-bottom: 1px solid #e2e2e2;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
+}
+
+main {
+  padding-top: 42px;
+}
+
+.grid-header,
+.aside-info,
+.logo-footerpage-section {
+  align-items: center;
+}
+
+.grid-header {
+  max-width: 1349px;
+  height: 42px;
+  margin: 0 auto;
+  padding: 4px 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.banner-image {
+  max-width: 945px;
+  margin: 0 auto;
+}
+
+.banner-image img {
+  width: 100%;
+}
+
+.banner-image figcaption {
+  max-width: 720px;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  margin-bottom: 43px;
+}
+
+.main-content-info {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-content-info-inner {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 400;
+  font-stretch: 100%;
+}
+
+.main-content-info-inner p {
+  margin-bottom: 0.9375rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.spaced-flex {
+  justify-content: space-between;
+}
+
+.main-content-aside {
+  position: absolute;
+  right: 0;
+  top: 1000px;
+  max-width: 210px;
+  font-size: 14px;
+}
+
+.aside-info {
+  margin-bottom: 15px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+.main-content-aside h3 {
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.aside-info img {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.inflation-image {
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  width: 100%;
+  height: 575px;
+  background-size: cover;
+  background-position: center;
+}
+
+.inflation-image-text p {
+  float: left;
+  width: 228px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 300;
+}
+
+.inflation-image .p-one {
+  padding-top: 145px;
+}
+
+.inflation-image .p-two {
+  padding-top: 280px;
+}
+
+.inflation-footer::before {
+  width: 60px;
+  background-color: #000;
+  display: block;
+  height: 1px;
+  content: "";
+  margin: 0 0 13px;
+  margin-top: 24px;
+}
+
+iframe {
+  width: 100%;
+  height: 315px;
+  border: none;
+}
+
+.telescope-image {
+  margin-bottom: 43px;
+}
+
+.telescope-image img {
+  width: 100%;
+  height: 400px;
+}
+
+.footer-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.article-container {
+  max-width: 852px;
+  float: left;
+  margin-bottom: 40px;
+}
+
+.article-content-container {
+  padding-top: 15px;
+}
+
+.footer-article-one {
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.footer-article-padding {
+  padding: 17px 0;
+}
+
+.footer-aside-container {
+  margin-left: 30px;
+  max-width: 285px;
+  float: right;
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+.article-content-main {
+  width: 272px;
+  margin-right: 15px;
+}
+
+.article-content-main img {
+  width: 100%;
+  height: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.display-grid {
+  display: grid;
+}
+
+.logo-footer-section {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.footer-links {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.fixed-footer {
+  grid-template-columns: 5fr 1fr;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.justify-center {
+  justify-content: flex-end;
+}
+
+.vertical-align-center {
+  vertical-align: middle;
+}
+
+.social-icons-margin {
+  margin-right: 10px;
+}
+
+.date-social {
+  margin-bottom: 20px;
+}
+
+.inflation-header-title {
+  margin-bottom: 2px;
+}
+
+/* template */
+
+footer {
+  margin-top: 45px;
+}
+
+.read-more-article,
+.right-header-links button {
+  background-color: rgb(86, 123, 149);
+  color: #fff;
+  border: 1px solid rgb(50, 104, 145);
+  transition: all 0.6s ease 0s;
+  vertical-align: middle;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.footer-links p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.nav-icons {
+  width: 16px;
+  height: 16px;
+  margin: 0 17px 0 9px;
+}
+
+.icons-titles span {
+  font-weight: 700;
+  font-size: 14.25px;
+  line-height: 19px;
+}
+
+.grid-header img,
+.logo-footer-section img {
+  width: 195px;
+  height: auto;
+}
+
+.social-icons .fa {
+  font-size: 13px;
+  border-radius: 100%;
+  background-color: #eee;
+  padding: 0.5em 0.6em;
+  vertical-align: middle;
+  border: 1px solid #eee;
+}
+
+.grid-header button {
+  padding: 11px 12px 8px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.main-content-info-inner h1 {
+  font-size: 35px;
+  font-style: italic;
+  color: #121212;
+  margin-top: 60px;
+  margin-bottom: 16px;
+  line-height: 3rem;
+}
+
+.aside-info a {
+  color: rgb(51, 51, 51);
+}
+
+.eight-eight-eight {
+  color: #888;
+}
+
+.video-image-caption-size span {
+  font-size: 13px;
+}
+
+.banner-image figcaption span {
+  font-size: 0.8125rem;
+}
+
+.shade-blue {
+  color: #326891;
+}
+
+.underline-link {
+  text-decoration: underline;
+}
+
+.main-color {
+  color: #333;
+}
+
+.helvetica {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.main-content-author {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.publish-date {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.times-subscription {
+  font-weight: 700;
+  font-size: 15px;
+  text-size-adjust: 100%;
+  line-height: 19px;
+}
+
+.times-subscription::before {
+  width: 72px;
+  background-color: rgb(204, 204, 204);
+  display: block;
+  height: 1px;
+  content: "";
+  margin: 18px auto;
+}
+
+.times-subscription::after {
+  width: 72px;
+  background-color: rgb(204, 204, 204);
+  display: block;
+  height: 1px;
+  content: "";
+  margin: 18px auto;
+}
+
+.color-black,
+.footer-links p,
+.fixed-footer {
+  color: #000;
+}
+
+.bold-paragraph {
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.six-six-six {
+  color: #666;
+}
+
+.footer-links h4,
+.footer-subscribe {
+  font-weight: 700;
+  height: 15px;
+}
+
+.footer-links h4 {
+  font-size: 13px;
+  line-height: 15px;
+  height: 25px;
+}
+
+.footer-links p,
+.footer-subscribe-inner {
+  height: 23px;
+}
+
+.inflation-image-text p:first-child,
+.inflation-section-div-two p:first-child {
+  margin-right: 10px;
+}
+
+.inflation-image-text p:nth-child(2),
+.inflation-section-div-two p:nth-child(2) {
+  margin-right: 15px;
+}
+
+.inflation-image-text p:nth-child(3),
+.inflation-section-div-two p:nth-child(3) {
+  margin-right: 8px;
+}
+
+.astronomers-discovery {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-family: georgia, "times new roman", times, serif;
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.inflation-footer {
+  font-size: 14px;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 29px;
+}
+
+.video-image-caption-size {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.article-featured {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.article-featured,
+.article-featured a,
+.footer-horizontal-links {
+  color: rgb(102, 102, 102);
+}
+
+.read-more-article {
+  font-size: 13px;
+  font-stretch: 100%;
+  font-weight: 600;
+  letter-spacing: 0.65px;
+  line-height: 24px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  width: 330px;
+  text-align: center;
+}
+
+.article-date,
+.image-credit {
+  color: rgb(153, 153, 153);
+}
+
+.image-credit {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12.3px;
+  padding-bottom: 4px;
+  text-align: right;
+}
+
+.main-article,
+.most-popular-items {
+  color: rgb(18, 18, 18);
+}
+
+.main-article {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.article-date {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.editor-pick,
+.most-popular,
+.footer-links h4 {
+  color: rgb(51, 51, 51);
+}
+
+.most-popular {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.most-popular-items {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.footer-aside-container h3,
+.most-popular-items {
+  padding-bottom: 15px;
+}
+
+.logo-footer-section .go-to-home {
+  color: rgb(86, 123, 149);
+}
+
+.logo-footer-section .go-to-home,
+.footer-horizontal-links {
+  font-weight: 400;
+  line-height: 11px;
+}
+
+.footer-subscribe {
+  font-size: 15px;
+  height: 25px;
+}
+
+.footer-subscribe-inner {
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.logo-footer-section .go-to-home,
+.footer-subscribe-inner,
+.footer-horizontal-links {
+  font-size: 11px;
+}
+
+.footer-horizontal-links {
+  height: 55px;
+  border-top: 1px solid rgb(226, 226, 226);
+  padding-top: 10px;
+  margin-top: 9px;
+}
+
+.footer-horizontal-links a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section.footer-container::before {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: '';
+  display: block;
+  height: 1px;
+  margin-top: 0;
+}
+
+.footer-subscribe-container {
+  padding-left: 15px;
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+.footer-subscribe-inner-container {
+  margin: 13px 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.bottom-fixed-div {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #000;
+  z-index: 2;
+  background-color: #fff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.expand-arrow p:last-child {
+  margin-left: 45px;
+  vertical-align: text-top;
+}
+
+.css-r5ic95 {
+  vertical-align: text-top;
+  width: 16px;
+  height: 16px;
+}
+
+/* state */
+
+.underlink-link-hover:hover {
+  text-decoration: underline;
+}
+
+.un-underlink-link-hover:hover {
+  text-decoration: none;
+}
+
+.social-icons .fa:hover {
+  background-color: #fff;
+}
