@@ -404,16 +404,12 @@ iframe {
 
 /* template */
 
-<<<<<<< HEAD
-button {
-=======
 footer {
   margin-top: 45px;
 }
 
 .read-more-article,
 .right-header-links a {
->>>>>>> 2aa4f09bc765a95157aa6a7a18035f1ebd128052
   background-color: rgb(86, 123, 149);
   color: #fff;
   border: 1px solid rgb(50, 104, 145);
