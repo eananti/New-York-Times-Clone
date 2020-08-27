@@ -409,13 +409,14 @@ footer {
 }
 
 .read-more-article,
-.right-header-links a {
+.right-header-links button {
   background-color: rgb(86, 123, 149);
   color: #fff;
   border: 1px solid rgb(50, 104, 145);
   transition: all 0.6s ease 0s;
   vertical-align: middle;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .footer-links p {
