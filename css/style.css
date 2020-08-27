@@ -390,7 +390,7 @@ iframe {
 }
 
 .fixed-footer {
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 5fr 1fr;
   text-align: center;
   font-size: 15px;
   font-weight: 400;
@@ -751,6 +751,11 @@ section.footer-container::before {
   background-color: #fff;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+.expand-arrow p:last-child {
+  margin-left: 45px;
+  vertical-align: text-top;
 }
 
 /* state */
