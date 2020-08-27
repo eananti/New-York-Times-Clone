@@ -404,7 +404,11 @@ iframe {
 
 /* template */
 
-button,
+footer {
+  margin-top: 45px;
+}
+
+.read-more-article,
 .right-header-links a {
   background-color: rgb(86, 123, 149);
   color: #fff;
@@ -412,10 +416,6 @@ button,
   transition: all 0.6s ease 0s;
   vertical-align: middle;
   border-radius: 3px;
-}
-
-footer {
-  margin-top: 45px;
 }
 
 .footer-links p {
@@ -628,6 +628,7 @@ footer {
   padding-top: 5px;
   text-transform: uppercase;
   width: 330px;
+  text-align: center;
 }
 
 .article-date,
