@@ -322,6 +322,10 @@ iframe {
   border: none;
 }
 
+.telescope-image {
+  margin-bottom: 43px;
+}
+
 .telescope-image img {
   width: 100%;
   height: 400px;
@@ -335,11 +339,27 @@ iframe {
 .article-container {
   max-width: 852px;
   float: left;
+  margin-bottom: 40px;
+}
+
+.article-content-container {
+  padding-top: 15px;
+}
+
+.footer-article-one {
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.footer-article-padding {
+  padding: 17px 0;
 }
 
 .footer-aside-container {
-  max-width: 315px;
+  margin-left: 30px;
+  max-width: 285px;
   float: right;
+  border-top: 1px solid rgb(0, 0, 0);
 }
 
 .article-content-main {
@@ -393,6 +413,10 @@ iframe {
   margin-bottom: 20px;
 }
 
+.inflation-header-title {
+  margin-bottom: 2px;
+}
+
 /* template */
 
 button {
@@ -402,6 +426,10 @@ button {
   transition: all 0.6s ease 0s;
   vertical-align: middle;
   border-radius: 3px;
+}
+
+footer {
+  margin-top: 45px;
 }
 
 .nav-icons {
@@ -429,10 +457,6 @@ button {
   padding: 0.5em 0.6em;
   vertical-align: middle;
   border: 1px solid #eee;
-}
-
-.social-icons .fa:hover {
-  background-color: #fff;
 }
 
 .grid-header button {
@@ -496,6 +520,24 @@ button {
   line-height: 19px;
 }
 
+.times-subscription::before {
+  width: 72px;
+  background-color: rgb(204, 204, 204);;
+  display: block;
+  height: 1px;
+  content: "";
+  margin: 18px auto;
+}
+
+.times-subscription::after {
+  width: 72px;
+  background-color: rgb(204, 204, 204);;
+  display: block;
+  height: 1px;
+  content: "";
+  margin: 18px auto;
+}
+
 .color-black,
 .footer-links p,
 .fixed-footer {
@@ -516,6 +558,7 @@ button {
   line-height: 1.125rem;
   font-weight: 400;
   font-family: georgia, "times new roman", times, serif;
+  margin-bottom: 10px;
 }
 
 .bold {
@@ -527,6 +570,7 @@ button {
   font-family: arial, helvetica, sans-serif;
   font-weight: 500;
   line-height: 18px;
+  margin-bottom: 29px;
 }
 
 .video-image-caption-size {
@@ -608,6 +652,13 @@ button {
   font-size: 19px;
   font-weight: 500;
   line-height: 23px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.footer-aside-container h3,
+.most-popular-items {
+  padding-bottom: 15px;
 }
 
 .logo-footer-section .go-to-home {
@@ -629,6 +680,7 @@ button {
 .footer-links h4 {
   font-size: 13px;
   line-height: 15px;
+  height: 25px;
 }
 
 .footer-links p {
@@ -691,4 +743,8 @@ section.footer-container::before {
 
 .un-underlink-link-hover:hover {
   text-decoration: none;
+}
+
+.social-icons .fa:hover {
+  background-color: #fff;
 }
