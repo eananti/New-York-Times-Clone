@@ -124,6 +124,7 @@ body {
   line-height: 1;
   background-color: #fff;
   font-family: georgia, 'times new roman', times, serif;
+  padding-bottom: 45px;
 }
 
 ol,
@@ -162,10 +163,6 @@ a {
 }
 
 /* layout */
-
-body {
-  padding-bottom: 45px;
-}
 
 header {
   position: fixed;
@@ -229,6 +226,10 @@ main {
   font-stretch: 100%;
 }
 
+.main-content-info-inner p {
+  margin-bottom: 0.9375rem;
+}
+
 .center-text {
   text-align: center;
 }
@@ -240,7 +241,7 @@ main {
 .main-content-aside {
   position: absolute;
   right: 0;
-  top: 250px;
+  top: 1000px;
   max-width: 210px;
   font-size: 14px;
 }
@@ -371,10 +372,25 @@ iframe {
 .fixed-footer {
   grid-template-columns: 3fr 1fr;
   text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
 .justify-center {
   justify-content: flex-end;
+}
+
+.vertical-align-center {
+  vertical-align: middle;
+}
+
+.social-icons-margin {
+  margin-right: 10px;
+}
+
+.date-social {
+  margin-bottom: 20px;
 }
 
 /* template */
@@ -404,6 +420,19 @@ button {
 .logo-footer-section img {
   width: 195px;
   height: auto;
+}
+
+.social-icons .fa {
+  font-size: 13px;
+  border-radius: 100%;
+  background-color: #eee;
+  padding: 0.5em 0.6em;
+  vertical-align: middle;
+  border: 1px solid #eee;
+}
+
+.social-icons .fa:hover {
+  background-color: #fff;
 }
 
 .grid-header button {
@@ -452,6 +481,7 @@ button {
 .main-content-author {
   font-size: 0.8125rem;
   font-weight: 700;
+  margin-bottom: 15px;
 }
 
 .publish-date {
@@ -593,10 +623,6 @@ button {
 .footer-links h4,
 .footer-subscribe {
   font-weight: 700;
-}
-
-.footer-links h4,
-.footer-subscribe {
   height: 15px;
 }
 
@@ -634,12 +660,6 @@ button {
 
 .footer-horizontal-links {
   height: 55px;
-}
-
-.fixed-footer {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 17px;
 }
 
 section.footer-container::before {
